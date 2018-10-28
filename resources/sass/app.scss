@@ -1,0 +1,31 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .04);
+}
+
+.jumbotron-bg-cont {
+  background-image: url('/img/jumbotron-bg.jpg');
+  background-size: cover;
+  bottom: 0;
+  filter: brightness(80%);
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.jumbotron-text-cont {
+  position: relative;
+  z-index: 2;
+}
